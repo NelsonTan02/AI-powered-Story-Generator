@@ -1,7 +1,7 @@
 import streamlit as st
 from ai import *
 
-st.title("Image Generator")
+st.title("Story Generator")
 
 with st.form('My form'):
   msg = st.text_input("What would you like to generate?")
