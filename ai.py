@@ -70,7 +70,7 @@ def generate_story(prompt):
         story_response).choices[0].message.content
     image_url = create_image(design_response)
 
-    return image_url
+    return image_url, design_response
 
 
 # response = requests.get(image_url)
