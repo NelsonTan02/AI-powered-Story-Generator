@@ -4,7 +4,7 @@ import requests
 from PIL import Image
 from io import BytesIO
 
-api_key = st.secrets['OPENAI_SECRET']
+api_key = st.secrets['OPENAI_API_KEY']
 client = OpenAI(api_key = api_key)
 
 
